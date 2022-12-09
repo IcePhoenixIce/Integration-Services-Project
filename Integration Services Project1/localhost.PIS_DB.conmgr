@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.PIS_DB"
+  DTS:DTSID="{7CCAC269-6ABC-4BC1-88A2-8F3F157D7C2F}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=PIS_DB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Integration Services Project1-{7CCAC269-6ABC-4BC1-88A2-8F3F157D7C2F}localhost.PIS_DB;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
